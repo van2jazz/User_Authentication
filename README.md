@@ -20,8 +20,35 @@
 3. Update the values in application.properties with your database connection details.
 4. Run the app: Right-click the project in the Package Explorer and click Run As > Spring Boot App.
 
+5. Next add some rows into roles-table before assigning any role to User.
+  Run following SQL insert statements:
+
+  INSERT INTO roles(name) VALUES('ROLE_USER');
+  INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
+  INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+
+6.Then check the tables:
+  SELECT * FROM roles;
+  ![role table](https://github.com/van2jazz/User_Authentication/assets/53022905/e25d7a8b-807c-432c-8717-3919f4388533)
+
+
+7.Register some users with /signup API:
+![role 3](https://github.com/van2jazz/User_Authentication/assets/53022905/cb4c9214-9c88-4f06-a0f4-5ebfdaa54426)
+
+NOTE: Role could be "user", "mod", "admin".
+
+
+8. Login registered user.
+
+![login 1](https://github.com/van2jazz/User_Authentication/assets/53022905/98bdbbb1-3989-432b-8796-9c1dc050a97a)
+
+
+
+
+
+
 # API documentation
 + API documentation is available via Swagger UI at http://localhost:8080/swagger-ui/index.html (note: app must be running)
 
 #Swagger UI
-![test1](https://github.com/van2jazz/User_Authentication/assets/53022905/a0d69338-d5d3-4e86-ae9d-c8ec78415618)
+
