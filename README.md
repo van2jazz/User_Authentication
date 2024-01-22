@@ -32,7 +32,7 @@
   INSERT INTO roles(name) VALUES('ROLE_ADMIN');
 ```
 
-###6.Then check the tables:
+### 6.Then check the tables:
 
 ``` js
   SELECT * FROM roles;
@@ -42,7 +42,7 @@
 
 
 
-###7.Register some users with /signup API:
+### 7.Register some users with /signup API:
 
 NOTE: Role could be "user", "mod", "admin".
 
@@ -53,7 +53,7 @@ NOTE: Role could be "user", "mod", "admin".
 
 
 
-###8. Login registered user.
+### 8. Login registered user.
 
 
 ![login 1](https://github.com/van2jazz/User_Authentication/assets/53022905/98bdbbb1-3989-432b-8796-9c1dc050a97a)
