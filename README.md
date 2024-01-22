@@ -26,11 +26,13 @@
 5. Next add some rows into roles-table before assigning any role to User.
   Run following SQL insert statements:
 
+  ``` js
   INSERT INTO roles(name) VALUES('ROLE_USER');
   
   INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
   
   INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+```
 
 6.Then check the tables:
   SELECT * FROM roles;
