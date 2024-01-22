@@ -34,7 +34,6 @@
 
 6.Then check the tables:
   SELECT * FROM roles;
-
 ![role table](https://github.com/van2jazz/User_Authentication/assets/53022905/e25d7a8b-807c-432c-8717-3919f4388533)
 
 
