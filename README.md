@@ -10,7 +10,7 @@
 +  Password Encryption: Safeguards user passwords through the use of BCrypt password hashing.
 
 #  Running the app
-1. Clone the repository: git clone https://github.com/van2jazz/ECommerce_Application 
+1. Clone the repository: git clone https://github.com/van2jazz/User_Authentication 
 2. Import the project:
 
 + Click File > Import...
