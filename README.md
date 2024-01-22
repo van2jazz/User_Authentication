@@ -9,9 +9,12 @@
 +   Token-based Authentication: Utilizes JSON Web Tokens (JWT) for secure and stateless authentication.
 +  Password Encryption: Safeguards user passwords through the use of BCrypt password hashing.
 
+
+
 #  Running the app
 1. Clone the repository: git clone https://github.com/van2jazz/User_Authentication 
 2. Import the project:
+
 
 + Click File > Import...
 + Select Maven > Existing Maven Projects and click Next
@@ -29,7 +32,11 @@
 
 6.Then check the tables:
   SELECT * FROM roles;
+
+  
   ![role table](https://github.com/van2jazz/User_Authentication/assets/53022905/e25d7a8b-807c-432c-8717-3919f4388533)
+
+
 
 
 7.Register some users with /signup API:
@@ -38,7 +45,11 @@
 NOTE: Role could be "user", "mod", "admin".
 
 
+
+
 8. Login registered user.
+
+
 
 ![login 1](https://github.com/van2jazz/User_Authentication/assets/53022905/98bdbbb1-3989-432b-8796-9c1dc050a97a)
 
