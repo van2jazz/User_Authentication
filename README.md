@@ -41,9 +41,12 @@
 ****
 
 7.Register some users with /signup API:
-![role 3](https://github.com/van2jazz/User_Authentication/assets/53022905/cb4c9214-9c88-4f06-a0f4-5ebfdaa54426)
 
 NOTE: Role could be "user", "mod", "admin".
+
+![role 3](https://github.com/van2jazz/User_Authentication/assets/53022905/cb4c9214-9c88-4f06-a0f4-5ebfdaa54426)
+
+
 
 
 
@@ -62,4 +65,5 @@ NOTE: Role could be "user", "mod", "admin".
 + API documentation is available via Swagger UI at http://localhost:8080/swagger-ui/index.html (note: app must be running)
 
 #Swagger UI
+![swagger](https://github.com/van2jazz/User_Authentication/assets/53022905/ba6d8e5a-9606-4c4e-a852-ab3cff82f290)
 
