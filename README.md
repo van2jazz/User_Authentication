@@ -44,6 +44,19 @@
 
 ### 7.Register some users with /signup API:
 
+``` js
+{
+ "username": "johnny",
+ "email": "john@gmail.com",
+ "firstname": "john",
+ "lastname": "kelvin",
+ "mobile": "08045678931",
+ "nin": "1234567849",
+ "password": "computer",
+ "role": ["user"]
+}
+```
+
 NOTE: Role could be "user", "mod", "admin".
 
 ![role 3](https://github.com/van2jazz/User_Authentication/assets/53022905/cb4c9214-9c88-4f06-a0f4-5ebfdaa54426)
