@@ -33,11 +33,11 @@
 6.Then check the tables:
   SELECT * FROM roles;
 
-  
-  ![role table](https://github.com/van2jazz/User_Authentication/assets/53022905/e25d7a8b-807c-432c-8717-3919f4388533)
+![role table](https://github.com/van2jazz/User_Authentication/assets/53022905/e25d7a8b-807c-432c-8717-3919f4388533)
 
 
-
+****
+****
 
 7.Register some users with /signup API:
 ![role 3](https://github.com/van2jazz/User_Authentication/assets/53022905/cb4c9214-9c88-4f06-a0f4-5ebfdaa54426)
@@ -48,7 +48,6 @@ NOTE: Role could be "user", "mod", "admin".
 
 
 8. Login registered user.
-
 
 
 ![login 1](https://github.com/van2jazz/User_Authentication/assets/53022905/98bdbbb1-3989-432b-8796-9c1dc050a97a)
