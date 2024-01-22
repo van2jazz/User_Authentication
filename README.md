@@ -1,12 +1,10 @@
 # User_Authentication
-+ This Repo contains a simple user authentication system using Spring MVC. It incorporates Spring Data JPA for effortless communication with a PostgreSQL database. The system ensures robust authentication through Auth0, providing a secure mechanism for accessing the REST API.
++ This repository built with Java Spring MVC contains a secure and robust authentication system built using Java Spring Boot. It provides a seamless user registration process through a RESTful API endpoint (/api/auth/signup). It utilizes JSON Web Tokens (JWT) for secure and stateless authentication.  The service ensures data integrity and security using encryption techniques for sensitive user information.
 
 + The APIs are well-documented and easily accessible through Swagger UI, making it simple for developers to test.
 
-+ It is a secure and robust authentication system built using Java Spring Boot. It provides a seamless user registration process through a RESTful API endpoint (/api/auth/signup). The service ensures data integrity and security by leveraging encryption techniques for sensitive user information.
-
 # Key Features:
-+ User Registration: Enables users to register with the system securely.
++   User Registration: Enables users to register with the system securely.
 +   Role-based Access Control: Implements role-based access control with predefined roles such as USER, MODERATOR, and ADMIN.
 +   Token-based Authentication: Utilizes JSON Web Tokens (JWT) for secure and stateless authentication.
 +  Password Encryption: Safeguards user passwords through the use of BCrypt password hashing.
